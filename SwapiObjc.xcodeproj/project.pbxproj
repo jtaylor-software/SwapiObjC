@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F367783257950C2002815CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F367782257950C2002815CA /* AppDelegate.m */; };
+		8F367786257950C2002815CA /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F367785257950C2002815CA /* SceneDelegate.m */; };
+		8F36778C257950C2002815CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F36778A257950C2002815CA /* Main.storyboard */; };
+		8F36778E257950C3002815CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F36778D257950C3002815CA /* Assets.xcassets */; };
+		8F367791257950C3002815CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F36778F257950C3002815CA /* LaunchScreen.storyboard */; };
+		8F367794257950C3002815CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F367793257950C3002815CA /* main.m */; };
+		8F3677A5257951C7002815CA /* JATPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F3677A4257951C7002815CA /* JATPerson.m */; };
+		8F3677A92579579C002815CA /* JATPersonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F3677A82579579C002815CA /* JATPersonController.m */; };
+		8F3677AD25795EF0002815CA /* JATPersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3677AC25795EF0002815CA /* JATPersonViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8F36777E257950C2002815CA /* SwapiObjc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwapiObjc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F367781257950C2002815CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8F367782257950C2002815CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8F367784257950C2002815CA /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		8F367785257950C2002815CA /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		8F36778B257950C2002815CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F36778D257950C3002815CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F367790257950C3002815CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F367792257950C3002815CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F367793257950C3002815CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8F3677A3257951C7002815CA /* JATPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JATPerson.h; sourceTree = "<group>"; };
+		8F3677A4257951C7002815CA /* JATPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JATPerson.m; sourceTree = "<group>"; };
+		8F3677A72579579C002815CA /* JATPersonController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JATPersonController.h; sourceTree = "<group>"; };
+		8F3677A82579579C002815CA /* JATPersonController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JATPersonController.m; sourceTree = "<group>"; };
+		8F3677AB25795EF0002815CA /* SwapiObjc-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwapiObjc-Bridging-Header.h"; sourceTree = "<group>"; };
+		8F3677AC25795EF0002815CA /* JATPersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JATPersonViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F36777B257950C2002815CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F367775257950C2002815CA = {
+			isa = PBXGroup;
+			children = (
+				8F367780257950C2002815CA /* SwapiObjc */,
+				8F36777F257950C2002815CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F36777F257950C2002815CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F36777E257950C2002815CA /* SwapiObjc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F367780257950C2002815CA /* SwapiObjc */ = {
+			isa = PBXGroup;
+			children = (
+				8F3677A125795165002815CA /* View Controllers */,
+				8F3677A025795151002815CA /* ModelController */,
+				8F36779F25795139002815CA /* Model */,
+				8F36779B257950F0002815CA /* Resources */,
+				8F36779D2579510F002815CA /* Storyboards */,
+			);
+			path = SwapiObjc;
+			sourceTree = "<group>";
+		};
+		8F36779B257950F0002815CA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8F367781257950C2002815CA /* AppDelegate.h */,
+				8F367782257950C2002815CA /* AppDelegate.m */,
+				8F367784257950C2002815CA /* SceneDelegate.h */,
+				8F367785257950C2002815CA /* SceneDelegate.m */,
+				8F36778D257950C3002815CA /* Assets.xcassets */,
+				8F367792257950C3002815CA /* Info.plist */,
+				8F367793257950C3002815CA /* main.m */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8F36779D2579510F002815CA /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				8F36778A257950C2002815CA /* Main.storyboard */,
+				8F36778F257950C3002815CA /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		8F36779F25795139002815CA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8F3677A3257951C7002815CA /* JATPerson.h */,
+				8F3677A4257951C7002815CA /* JATPerson.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8F3677A025795151002815CA /* ModelController */ = {
+			isa = PBXGroup;
+			children = (
+				8F3677A72579579C002815CA /* JATPersonController.h */,
+				8F3677A82579579C002815CA /* JATPersonController.m */,
+			);
+			path = ModelController;
+			sourceTree = "<group>";
+		};
+		8F3677A125795165002815CA /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8F3677AC25795EF0002815CA /* JATPersonViewController.swift */,
+				8F3677AB25795EF0002815CA /* SwapiObjc-Bridging-Header.h */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F36777D257950C2002815CA /* SwapiObjc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F367797257950C3002815CA /* Build configuration list for PBXNativeTarget "SwapiObjc" */;
+			buildPhases = (
+				8F36777A257950C2002815CA /* Sources */,
+				8F36777B257950C2002815CA /* Frameworks */,
+				8F36777C257950C2002815CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwapiObjc;
+			productName = SwapiObjc;
+			productReference = 8F36777E257950C2002815CA /* SwapiObjc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F367776257950C2002815CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JAT;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					8F36777D257950C2002815CA = {
+						CreatedOnToolsVersion = 12.2;
+						LastSwiftMigration = 1220;
+					};
+				};
+			};
+			buildConfigurationList = 8F367779257950C2002815CA /* Build configuration list for PBXProject "SwapiObjc" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F367775257950C2002815CA;
+			productRefGroup = 8F36777F257950C2002815CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F36777D257950C2002815CA /* SwapiObjc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F36777C257950C2002815CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F367791257950C3002815CA /* LaunchScreen.storyboard in Resources */,
+				8F36778E257950C3002815CA /* Assets.xcassets in Resources */,
+				8F36778C257950C2002815CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F36777A257950C2002815CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F3677A5257951C7002815CA /* JATPerson.m in Sources */,
+				8F3677A92579579C002815CA /* JATPersonController.m in Sources */,
+				8F367783257950C2002815CA /* AppDelegate.m in Sources */,
+				8F367794257950C3002815CA /* main.m in Sources */,
+				8F367786257950C2002815CA /* SceneDelegate.m in Sources */,
+				8F3677AD25795EF0002815CA /* JATPersonViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8F36778A257950C2002815CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F36778B257950C2002815CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8F36778F257950C3002815CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F367790257950C3002815CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F367795257950C3002815CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8F367796257950C3002815CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F367798257950C3002815CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H5MJHNUR7S;
+				INFOPLIST_FILE = SwapiObjc/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bytes-random.SwapiObjc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwapiObjc/View Controllers/SwapiObjc-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F367799257950C3002815CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H5MJHNUR7S;
+				INFOPLIST_FILE = SwapiObjc/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bytes-random.SwapiObjc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwapiObjc/View Controllers/SwapiObjc-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F367779257950C2002815CA /* Build configuration list for PBXProject "SwapiObjc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F367795257950C3002815CA /* Debug */,
+				8F367796257950C3002815CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F367797257950C3002815CA /* Build configuration list for PBXNativeTarget "SwapiObjc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F367798257950C3002815CA /* Debug */,
+				8F367799257950C3002815CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F367776257950C2002815CA /* Project object */;
+}
